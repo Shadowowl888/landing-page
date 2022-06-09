@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #1f2937;
+  padding: 16px 208px;
+}
+
+#logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
+}
+
+.secondary,
+a:link {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+  gap: 40px;
+}
+
+.welcome .left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.welcome .right {
+  flex-shrink: 0;
+  width: 50%;
+}
+
+.hero {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+button {
+  background-color: #3882f6;
+  border-radius: 8px;
+  padding: 7px 16px;
+  width: 120px;
+}
+
+.welcome button {
+  border: none;
+}
+
+.image {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 215px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 200px;
+  margin-top: 40px;
+}
+
+main h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px 0 100px 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+  max-width: 200px;
+}
+
+.box {
+  border: 4px solid blue;
+  border-radius: 20px;
+  width: 160px;
+  height: 160px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e5e7eb;
+  padding: 110px 200px;
+}
+
+.quote p {
+  align-self: flex-end;
+  font-size: 24px;
+  color: #1f2937;
+}
+
+.quote em {
+  font-size: 36px;
+  font-weight: 100;
+  color: #1f2937;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 200px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 50px;
+  width: 100%;
+}
+
+.container button {
+  border: 2px solid white;
+}
+
+strong {
+  font-size: 24px;
+  color: white;
+}
+
+footer {
+  background-color: #3c3f42;
+  padding: 40px 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
